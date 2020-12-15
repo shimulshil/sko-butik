@@ -1,0 +1,96 @@
+.header { 
+    grid-column-start: 1; 
+    grid-column-end: 6; 
+    grid-row-start: 1; 
+    grid-row-end: 2; 
+    display: grid; 
+    grid-auto-rows: 130px;
+    grid-template-columns: repeat(15, 1fr); 
+    background-color: lightseagreen;
+  }
+.header1{
+    grid-column-start: 1; 
+    grid-column-end:9 ;
+    grid-row-start: 1;
+  }
+  .header2{
+    grid-column-start: 6; 
+    grid-column-end:12 ;
+    grid-row-start: 1;
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-shadow: 0px 2px rgb(212, 204, 204) ;
+  }
+.footer{
+    grid-column-start: 1; 
+    grid-column-end:6 ; 
+    grid-auto-rows: 175px; 
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr); 
+    background-color:darkcyan;;
+    color: whitesmoke;
+  }
+  .footer1{
+    grid-column-start: 2; 
+    grid-column-end:4 ;
+  }
+  .footer2{
+    grid-column-start:5 ; 
+    grid-column-end:7;
+}
+.footer3{
+    grid-column-start: 8; 
+    grid-column-end:10 ;
+  }
+
+.footer-header{
+  font-size: 15px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.footer-description{
+  font-size: 12px;
+}
+.hyperlink{
+    color: whitesmoke;
+    text-decoration: none;
+  }
+/* Cat Home page*/
+.main1{
+  padding-bottom: 330px;
+}
+
+@media screen and (min-width: 800px){
+  .header2{
+    
+    font-size: 50px;
+    
+  }
+
+.footer{
+  grid-auto-rows: 180px;  
+}
+.footer-header{
+  font-size: 25px;
+}
+.footer-description{
+  font-size: 16px;
+}
+.footer1{
+  grid-column-start: 2; 
+  grid-column-end:4 ;
+}
+.footer2{
+  grid-column-start: 5; 
+  grid-column-end:7 ;
+}
+.footer3{
+  grid-column-start: 8; 
+  grid-column-end:10 ;
+}
+
+}
+

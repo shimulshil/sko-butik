@@ -1,0 +1,35 @@
+.service-text{
+    font-size: 30px;
+}
+.justify{
+    padding-left: 0px;
+    font-size: 122%;
+}
+.address{
+  padding: 5px 50px;
+}
+.hyperlink1{
+    text-decoration: none;
+    color: black;
+  }
+
+@media screen and (min-width: 800px){
+  .service-text{
+    font-size: 50px;
+  }  
+  .address{
+    padding: 5px 100px;
+  } 
+ 
+  .justify{
+    padding-top:20px;
+  }
+  
+  }
+
+  @media screen and (min-width: 900px){
+    .address{
+      padding: 5px 144px;
+    }
+    
+  }
